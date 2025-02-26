@@ -2,9 +2,15 @@ public class MakeArray {
 
 
     int[] nums= new int [10];
+    public double total;
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
+//        for(int x=0;x<nums.length;x=x+1) {
+//            nums[x] = (int)(100* Math.random());
+//            for(int x=0; x<nums.lenght;x++){
+//
+//            }
+//        }
+System.out.println("Hello world!");
 MakeArray make = new MakeArray();
 
     }
@@ -25,9 +31,12 @@ printarray();
     }
     public void printarray (){
         System.out.println(nums[0]+nums[1]+nums[2]+nums[3]+nums[4]+nums[5]+nums[6]+nums[7]+nums[8]+nums[9]);
+        System.out.println();
+
 
 
     }
 
 
 }
+//homework is to comment to say what it does
