@@ -22,6 +22,7 @@ public class ArraysObjects {
         soosh[0].print();
         soosh[1] = b;
         printArray();
+        totalsushi();
     }
 
     public void printArray() {
@@ -37,7 +38,13 @@ public void changeSize() {
     }
 
         }
-
+public void totalsushi (){
+    int y = 0;
+    for (int x = 0; x < soosh.length; x++) {
+        y += soosh[x].size;
+    }
+    System.out.println("Total size of all of the sushi is " + y);
+}
 
 
 
